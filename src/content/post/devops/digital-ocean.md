@@ -24,5 +24,9 @@ tags: ["devops", "linux","server","deploy"]
 ```sh
 sudo -u postgres psql
 > CREATE DATABASE project_1
->
+> CREATE USER projectuser WITH PASSWORD 'password'
+> ALTER ROLE projectuser SET client_encoding to 'utf8'
+> ALTER ROLE projectuser SET default_transaction_isolation TO 'read comitted'
+> ALTER ROLE projectuser SET timezon TO 'UTC'
+
 ```
