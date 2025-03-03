@@ -4,6 +4,9 @@ description: "This post showcases using the markdown admonition feature in Astro
 publishDate: "25 Aug 2024"
 updatedDate: "7 Jan 2025"
 tags: ["markdown", "admonitions"]
+coverImage:
+  src: "./cover.png"
+  alt: "Astro build wallpaper"
 ---
 
 ## What are admonitions
